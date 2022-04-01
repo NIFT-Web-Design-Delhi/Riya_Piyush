@@ -1,0 +1,11 @@
+* {
+  border: 1px solid black;
+}
+
+body {
+  background-color: lightgrey;
+  color: black;
+  font-size: 60px;
+  padding: 100px;
+  margin: 50px;
+}
