@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
+
+/* font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
+
+/* COLOR COMBINATION
+brown: #a55e3f
+dark blue: #0d1e64
+*/
+
+
+/* ==================
+    GLOBAL STYLES
+================== */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300px;
+  color:  #a55e3f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya', serif;
+}
+
+/* ==================
+      HEADER
+================== */
+
+header {
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  border-bottom: 1px solid #a55e3f;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700px;
+  letter-spacing: 2.5px;
+  color: #a55e3f
+  padding: 0 3px;
+}
+
+
+/* Individual Navigation Menu Item */
+
+header nav .menuItem {
+  overflow: hidden;
+}
+
+
+/* The Line Container */
+
+.colouredLine {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  padding-top: 8px;
+  margin-left: -100%;
+  transition: all .2s;
+}
+
+
+/* The First Line */
+
+.colouredLine span:first-of-type {
+  width: 37%;
+  height: 100%;
+  background-color: #0d1e64;
+}
+
+
+/* The Second Line */
+
+.colouredLine span:last-of-type {
+  width: 63%;
+  height: 100%;
+  background-color: #a55e3f;
+}
+
+
+/* Animation on Hover */
+
+header nav .menuItem:hover .colouredLine {
+  margin-left: 0;
+}
+
+header nav .menuItem.active .colouredLine {
+  margin-left: 0 !important;
+}
+
+.subMenu {
+  position: absolute;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 24px 32px;
+  top: 0px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  transition: all .2s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+}
+
+.subMenu p {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 12px;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.subMenu p:hover {
+  color: rgba(0,0,0,.85);
+}
+
+nav .menuItem.dropdown:hover .subMenu {
+  top: 59px;
+  visibility: visible;
+  opacity: 1;
+}

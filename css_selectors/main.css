@@ -1,0 +1,42 @@
+/* This file is going to show different ways to
+target the styles using Selectors */
+
+/* Specifity
+ TagName/ElementName: 1
+ ClassName: 10
+ ID: 100 */
+
+/* Universal Selectors */
+* {
+  background-color: lightgrey;
+  border: 2px solid white;
+}
+
+/* Type Selector | Tagname | Specificity 1 */
+h1 {
+  background-color: grey;
+}
+
+/* Class Selector | Specificity 10 */
+/* For any element, there can be multiple classes applied */
+.classExample {
+  border-left: 2px solid black;
+}
+
+/* ID Selector | Specificity 100 */
+#highlight {
+  border-left: 2px solid grey;
+}
+
+/* Grouping Selector */
+h1, li {
+  font-size: 20px
+}
+section {
+  border: 2px dashed yellow;
+}
+
+/* Descendant Slector */
+body section div p {
+  background-color: yellow;
+}
