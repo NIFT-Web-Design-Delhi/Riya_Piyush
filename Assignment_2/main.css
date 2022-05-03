@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 3.7fr 5fr;
+    background: black;
+    color: white;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+#dp {
+    padding-left: 26%;
+}
+
+#intro {
+    padding-top: 15px;
+}
+
+#ui {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#ent {
+    margin-top: 0px;
+}
+
+#space {
+    margin-left: 30px;
+
+}
+
+#progress-bar {
+    background: #CDCDCF;
+    height: 10px;
+    margin-top: 8px;
+    width: 100px;
+}
+
+.progress {
+    background: black;
+    height: 10px;
+}
+
+.uiux {
+    width: 45px;
+}
+
+.illustration {
+    width: 90px;
+}
+
+.photoshop {
+    width: 60px;
+}
+
+.autocad{
+    width: 70px;
+}
+
+.max{
+    width: 80px;
+}
+
+.indesign {
+    width: 80px;
+}
+
+.blender {
+    width: 70px;
+}
+
+.figma {
+    width: 50px;
+}
+
+.topM {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#contacts {
+    background: #CDCDCF;
+    padding: 10px;
+    width: 80%      ;
+}
+
+#skills {
+    background: #CDCDCF;
+    padding: 10px;
+}
+
+#exp1 {
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+
+i {
+    margin: 0px 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+#head {
+    font-weight: bold;
+}
+
+svg {
+    height: 1em;
+    margin-left: 40px;
+}
+
+#left-mrgm {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+    background: black;
+}
+
+#image {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#name {
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#web {
+    letter-spacing: 0.2em;
+    margin-top: 30px;
+    color: #e8775f;
+}
+
+#underline {
+    width: 440px;
+    height: 7px;
+    margin-top: 20px;
+    background: #CECED0;
+}
+
+#exp {
+    background: #CDCDCF;
+    padding: 10px;
+}
+
+#wrapper {
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.row{
+    display: flex;
+}
+
+.kuchh{
+    width: 40%;
+}
+
+.kahi{
+    width: 60%;
+}
+.skills{
+    margin: auto;
+}
+
+#ui p{
+    margin-top: 2px;
+}
